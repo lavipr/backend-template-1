@@ -176,7 +176,7 @@
             title="MOD_MENU_MANAGE_REDIRECTS"
             type="component"
             element="com_redirect"
-            link="index.php?option=com_redirect"
+            link="index.php?option=com_redirect&amp;view=links"
             permission="core.manage;com_redirect"
             />
 

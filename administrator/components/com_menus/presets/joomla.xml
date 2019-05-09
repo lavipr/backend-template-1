@@ -23,7 +23,7 @@
 				quicktask-title="MOD_MENU_COM_CONTENT_NEW_ARTICLE"
 				type="component"
 				element="com_content"
-				link="index.php?option=com_content"
+				link="index.php?option=com_content&amp;view=articles"
 				quicktask="index.php?option=com_content&amp;task=article.add"
 				>
 		</menuitem>
@@ -32,7 +32,7 @@
 				quicktask-title="MOD_MENU_COM_CONTENT_NEW_CATEGORY"
 				type="component"
 				element="com_categories"
-				link="index.php?option=com_categories&amp;extension=com_content"
+				link="index.php?option=com_categories&amp;view=categories&amp;extension=com_content"
 				quicktask="index.php?option=com_categories&amp;extension=com_content&amp;task=category.add"
 				>
 		</menuitem>
@@ -47,7 +47,7 @@
 			title="MOD_MENU_COM_CONTENT_WORKFLOW"
 			type="component"
 			element="com_workflow"
-			link="index.php?option=com_workflow&amp;extension=com_content">
+			link="index.php?option=com_workflow&amp;view=workflows&amp;extension=com_content">
 		</menuitem>
 		<menuitem
 				type="separator"
@@ -56,7 +56,7 @@
 				title="MOD_MENU_FIELDS"
 				type="component"
 				element="com_fields"
-				link="index.php?option=com_fields&amp;context=com_content.article"
+				link="index.php?option=com_fields&amp;view=fields&amp;context=com_content.article"
 		/>
 		<menuitem
 				title="MOD_MENU_FIELDS_GROUP"
@@ -203,7 +203,7 @@
 				title="MOD_MENU_FIELDS"
 				type="component"
 				element="com_fields"
-				link="index.php?option=com_fields&amp;context=com_users.user"
+				link="index.php?option=com_fields&amp;view=fields&amp;context=com_users.user"
 		/>
 		<menuitem
 				title="MOD_MENU_FIELDS_GROUP"

@@ -11,7 +11,7 @@
 	<description>COM_REDIRECT_XML_DESCRIPTION</description>
 	<namespace>Joomla\Component\Redirect</namespace>
 	<administration>
-		<menu link="option=com_redirect" img="class:redirect">Redirect</menu>
+		<menu link="option=com_redirect&amp;view=links" img="class:redirect">Redirect</menu>
 		<files folder="admin">
 			<filename>access.xml</filename>
 			<filename>config.xml</filename>

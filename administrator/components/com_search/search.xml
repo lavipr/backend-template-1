@@ -21,7 +21,7 @@
 		<language tag="en-GB">language/en-GB.com_search.ini</language>
 	</languages>
 	<administration>
-		<menu link="option=com_search">Search</menu>
+		<menu link="option=com_search&amp;view=searches">Search</menu>
 		<files folder="admin">
 			<filename>access.xml</filename>
 			<filename>config.xml</filename>

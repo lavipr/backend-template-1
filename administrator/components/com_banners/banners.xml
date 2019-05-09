@@ -41,7 +41,7 @@
 				XML and be parsed by the installer
 			-->
 			<menu
-				link="option=com_banners"
+				link="option=com_banners&amp;view=banners"
 				view="banners"
 				img="class:banners"
 				alt="Banners/Banners"
@@ -49,7 +49,7 @@
 				com_banners_banners
 			</menu>
 			<menu
-				link="option=com_categories&amp;extension=com_banners"
+				link="option=com_categories&amp;view=categories&amp;extension=com_banners"
 				view="categories"
 				img="class:banners-cat"
 				alt="Banners/Categories"

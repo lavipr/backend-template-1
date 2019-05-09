@@ -41,6 +41,6 @@
 			<language tag="en-GB">language/en-GB.com_tags.ini</language>
 			<language tag="en-GB">language/en-GB.com_tags.sys.ini</language>
 		</languages>
-		<menu link="option=com_tags">com_tags</menu>
+		<menu link="option=com_tags&amp;view=tags">com_tags</menu>
 	</administration>
 </extension>
