@@ -86,7 +86,7 @@ caption {
 body .container-main {
   position: relative;
   min-height: calc(100vh - #{$header-height});
-  background-color: var(--atum-bg-light);
+ // background-color: var(--atum-bg-light);
   padding-left: 0;
   padding-right: 0;
 
@@ -99,7 +99,7 @@ body .container-main {
 		left: 0;
 		z-index: -1;
 		background-color: var(--atum-bg-light);
-		background-image: url(../../../administrator/templates/atum/images/joomla-pattern-gray.svg);
+		background-image: url(../images/joomla-pattern-gray.svg);
 	}
 
 	&:after {
@@ -107,6 +107,12 @@ body .container-main {
 		background: -webkit-linear-gradient(-45deg, var(--atum-bg-light) 0%, var(--atum-bg-light) 20%, rgba(225, 229, 231, 0) 100%);
 		background: linear-gradient(135deg, var(--atum-bg-light) 0%, var(--atum-bg-light) 20%, rgba(225, 229, 231, 0) 100%);
 	}
+}
+
+body .j-install .container-main {
+  &:before, &:after {
+    background-image: url(../../../administrator/templates/atum/images/joomla-pattern-gray.svg);
+  }
 }
 
 .content {
