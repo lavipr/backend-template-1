@@ -97,9 +97,8 @@ body .container-main {
 		top: 0;
 		left: 0;
 		z-index: -1;
-		background-color: var(--atum-bg-light);
-		background-image: url(../images/joomla-pattern.svg);
-		background-size: 200px;
+		background: var(--atum-bg-light) url(../images/joomla-pattern.svg);
+		background-size: 12.5rem;
 	}
 
 	&:after {

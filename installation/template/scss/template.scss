@@ -15,12 +15,6 @@ $fa-font-path: "../../../media/vendor/fontawesome-free/webfonts";
 @import "../../../administrator/templates/atum/scss/blocks/global";
 @import "../../../administrator/templates/atum/scss/blocks/header";
 
-body {
-  background: var(--atum-bg-light);
-  background-image: url(../../../administrator/templates/atum/images/joomla-pattern.svg);
-  background-size: 12.5rem;
-}
-
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -32,8 +26,8 @@ body {
 
   .container-main {
     &:before, &:after {
-      background-image: url(../../../administrator/templates/atum/images/joomla-pattern.svg);
-      background-size: 200px;
+      background: var(--atum-bg-light) url(../../../administrator/templates/atum/images/joomla-pattern.svg);
+      background-size: 12.5rem;
     }
   }
 }
