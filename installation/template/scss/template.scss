@@ -29,6 +29,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  .container-main {
+    &:before, &:after {
+      background-image: url(../../../administrator/templates/atum/images/joomla-pattern.svg);
+      background-size: 200px;
+    }
+  }
 }
 
 
