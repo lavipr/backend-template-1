@@ -59,11 +59,13 @@
       return false;
     });
 
-    const cpanelModules = document.getElementById('cpanel-modules');
+    const cpanelModules = [].slice.call(document.querySelectorAll('.cpanel-modules'));
     if (cpanelModules) {
-      const links = [].slice.call(cpanelModules.querySelectorAll('.unpublish-module'));
-      links.forEach((link) => {
-        link.addEventListener('click', event => Joomla.unpublishModule(event.target));
+      cpanelModules.forEach((cpanelModule) => {
+        const links = [].slice.call(cpanelModule.querySelectorAll('.unpublish-module'));
+        links.forEach((link) => {
+          link.addEventListener('click', event => Joomla.unpublishModule(event.target));
+        });
       });
     }
 
